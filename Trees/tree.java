@@ -85,6 +85,9 @@ public class tree{
         tree.insert(33);
         tree.insert(12);
 
+        tree.insert(78);
+        tree.insert(100);
+
         tree.Inorder();
         System.out.println();
 
