@@ -1,11 +1,11 @@
 class Node{
-        int data;
-        Node left;
-        Node right;
+    int data;
+    Node left;
+    Node right;
 
-        Node(int data){
-            this.data=data;
-        }
+    Node(int data){
+        this.data=data;
+    }
 }
 
 public class tree{
@@ -85,8 +85,7 @@ public class tree{
         tree.insert(33);
         tree.insert(12);
 
-        tree.insert(78);
-        tree.insert(100);
+        tree.insert(97);
 
         tree.Inorder();
         System.out.println();
