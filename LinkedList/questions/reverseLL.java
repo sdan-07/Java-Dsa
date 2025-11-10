@@ -39,7 +39,6 @@ public class reverseLL {
             prevptr = curr;
             curr = nextptr;
         }
-
         return prevptr;
     }
 
@@ -54,7 +53,7 @@ public class reverseLL {
         System.out.println("Original list:");
         ll.print();
 
-        System.out.println("\nAfter reverseing list:");
+        System.out.println("\nAfter reversing list:");
         ll.head = ll.reverse();
         ll.print();
 
